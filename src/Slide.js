@@ -1,5 +1,4 @@
 import Section from "./Section";
-import Codepen from "react-codepen-embed";
 import useSlideAnimate from "./hooks/useSlideAnimate";
 import useCodepenSize from "./hooks/useCodepenSize";
 import useWinSize from "./hooks/useWinSize";
@@ -89,14 +88,14 @@ const Slide = ({
                 transformOrigin: "0 0",
               }}
             >
-              <Codepen
-                preview={false}
-                hash={hash}
-                user="shalanah"
-                height={height}
-                editable
-                defaultTab={"html,result"}
-              />
+              {/*<Codepen*/}
+              {/*  preview={false}*/}
+              {/*  hash={hash}*/}
+              {/*  user="shalanah"*/}
+              {/*  height={height}*/}
+              {/*  editable*/}
+              {/*  defaultTab={"html,result"}*/}
+              {/*/>*/}
             </div>
           </div>
         </Section>

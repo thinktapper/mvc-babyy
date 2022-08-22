@@ -1,7 +1,7 @@
 const Cover = () => (
   <p>
-    Svgwithme.com
-    <br /> Code along on Chrome or Firefox
+    <strong>M</strong>odel, <strong>V</strong>iew, <strong>C</strong>ontroller
+    <br /> Lecture by <a href="https://twitter.com/thinktapper">@thinktapper</a>
   </p>
 );
 
