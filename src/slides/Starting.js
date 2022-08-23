@@ -1,6 +1,3 @@
-import { IconContainer } from "./Intro";
-import IconGithub from "../icons/IconGithub";
-
 const Starting = () => {
   return (
     <>

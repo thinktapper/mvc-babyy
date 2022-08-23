@@ -1,7 +1,4 @@
 import styled from "styled-components";
-import IconTwitter from "../icons/IconTwitter";
-import IconLinkedIn from "../icons/IconLinkedIn";
-import IconGithub from "../icons/IconGithub";
 
 export const IconContainer = styled.a`
   color: #000 !important;
