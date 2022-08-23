@@ -65,6 +65,7 @@ const GlobalStyles = createGlobalStyle`
   h3, h4, h5, h6 {
     font-size: 1.5rem;
     color: #fff;
+    text-shadow: -.05em .05em #000;
     font-family: 'Source Sans Pro', sans-serif;
   }
   body {
