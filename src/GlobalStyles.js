@@ -16,7 +16,7 @@ const fadeIn = keyframes`
 
 const GlobalStyles = createGlobalStyle`
   html {
-    background: ${colors.purple};
+    background: ${colors.dark};
   }
   html {
 	  scroll-behavior: smooth;
@@ -53,7 +53,7 @@ const GlobalStyles = createGlobalStyle`
     left: 50%;
     transform: translateX(-50%);
   }
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2 {
     font-size: 2rem;
     color: #fff;
     text-shadow: -.05em .05em #000;
@@ -62,8 +62,14 @@ const GlobalStyles = createGlobalStyle`
   h1 {
     text-shadow: -10px 10px #000;
   }
+  h3, h4, h5, h6 {
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
   body {
-    font-family: Sriracha, sans-serif;
+    //font-family: Sriracha, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color: #fff;
   }
   .animateIn {
@@ -74,6 +80,13 @@ const GlobalStyles = createGlobalStyle`
   .animateIn.start {
     animation: ${fadeIn} .225s cubic-bezier(0.645, 0.045, 0.355, 1) both;
     pointer-events: all;
+  }
+  .diagram {
+    width: 39rem;
+    margin: 0 auto;
+  }
+  .diagram img {
+    width: 100%;
   }
 `;
 

@@ -44,7 +44,7 @@ const Cover = () => (
         <strong>M</strong>odel, <strong>V</strong>iew, <strong>C</strong>ontroller
         <br /> Lecture by <a href="https://tapper.codes/">Andrew Tapper</a>
       </p>
-      <div className="animateIn" style={{ display: "flex", gap: 15 }}>
+      <div className="animateIn" style={{ display: "flex", justifyContent: "center", gap: 15 }}>
         <IconContainer
           href={"https://tapper.codes/Twitter"}
           target="_blank"
