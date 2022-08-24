@@ -6,7 +6,7 @@ const ThankYou = () => {
           Modularity
         </li>
         <li className="animateIn">
-          Resuablility
+          Reusablility
         </li>
         <li className="animateIn">
           Organized code
